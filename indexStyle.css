@@ -1,0 +1,204 @@
+/* <!--------w-----------
+
+    Project 4
+    Name: Khoi Dong	
+    Date: 15 April, 2023
+    Description: Website Development & Deployment
+
+---------------------> */
+
+html,
+body,
+header,
+nav,
+main,
+footer,
+section,
+div,
+ul,
+li,
+p,
+h1,
+h2,
+h4,
+img 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: white ;
+    font-family: 'Sofia Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    max-width: 1000px;
+    background-color: #fff;
+    margin: 10px auto;
+    
+}
+a
+{
+    text-decoration: none;
+}
+
+.header 
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    border-bottom: 1px solid grey ;
+    padding: 25px;
+    row-gap: 15px;
+}
+
+.headerNav ul
+{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    
+}
+.headerNav ul li
+{
+    padding: 10px;
+    font-size: 20px;
+}
+.headerNav ul li a
+{
+    color: #024250;
+    font-weight: 600;
+    letter-spacing: 1px;
+
+}
+.headerNav ul li :hover
+{
+    background-color: #e3fc74;
+}
+.logo
+{
+    width: 150px;
+} 
+.intro
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 50px;
+    padding: 0px 25px;
+    background-color: #EEF1EE ;   
+}
+.intro_img
+{
+    max-width: 350px;
+}
+
+.brief_intro
+{
+    padding-top: 100px;
+}
+.brief_intro h1
+{
+    font-size: 50px;
+    font-weight:bolder;
+}
+.brief_intro p
+{
+    font-size: large;
+    padding-top: 20px;
+}
+.brief_intro a
+{
+    /* list-style:none; */
+    font-size:large;
+    padding: 20px 0px;
+    color:#024250;
+    display: block;
+}
+.brief_intro button
+{
+    border: 2px solid #024250;
+    background-color: #024250;
+    border-width: 20px ;
+    font-size: large;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 8px;
+    letter-spacing: 1px;
+    display: block;
+}
+
+.about
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 100px 0px 100px;
+    background-color: #fff;
+    justify-content: center;
+}
+.about_img
+{
+    max-width: 480px;
+}
+.about_info
+{
+    max-width: 500px;
+    padding: 0px 25px 0px 25px;
+}
+.about_info h2
+{
+    font-size: 40px;
+    padding-bottom: 15px;
+}
+.about_info p
+{
+    font-size: 18px;
+    text-align:justify;
+    padding: 5px;
+    line-height: 25px;
+}
+
+.footer
+{
+    display: flex;
+    flex-wrap:wrap;
+    /* justify-content:space-between; */
+    column-gap: 100px;
+    row-gap: 30px;
+    
+}
+.footer_container
+{
+    background-color: #EEF1EE;
+    padding: 25px;
+}
+
+.footerNav li
+{
+    list-style: none;
+    padding: 5px 0px;
+}
+.footer_logo
+{
+    width:100px;
+}
+.footerNav li a
+{
+    color:#024250;
+    font-weight: 500;
+}
+.footerNav li :hover
+{
+    background-color: #e3fc74;
+}
+.footer_copyright
+{
+    text-align: end;
+    border-top: 1px solid grey;
+    padding-top: 20px;
+}
+    
+
